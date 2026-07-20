@@ -1,0 +1,77 @@
+.contact-section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #3c1488, #2d1770);
+}
+
+/* Title */
+.contact-title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+/* Card */
+.contact-card {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  animation: slideUp 1s ease;
+  height: 100%;
+ 
+}
+
+/* Heading */
+.contact-heading {
+  color: #0d6efd;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.contact-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Social */
+.social-link {
+  margin: 10px;
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-link:hover {
+  color: aqua;
+}
+
+/* Animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 28px;
+  }
+
+  .contact-heading {
+    font-size: 22px;
+  }
+
+  .contact-text {
+    font-size: 16px;
+  }
+}

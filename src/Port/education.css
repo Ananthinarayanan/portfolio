@@ -1,0 +1,96 @@
+.education-section {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #3c1488, #2d1770);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Title */
+.edu-title {
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Row */
+.edu-row {
+  margin-top: 20px;
+}
+
+/* Card */
+.edu-card {
+  margin-bottom: 5px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.edu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Text */
+.edu-heading {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.edu-sub {
+  font-size: 18px;
+}
+
+.edu-text {
+  font-size: 16px;
+}
+
+/* Certificates */
+.certificate-section {
+  margin-top: 50px;
+}
+
+.cert-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 20px;
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .edu-title {
+    font-size: 28px;
+  }
+
+  .edu-heading {
+    font-size: 22px;
+  }
+
+  .edu-text {
+    font-size: 15px;
+  }
+
+  .cert-title {
+    font-size: 26px;
+  }
+}
+
+
+
+
