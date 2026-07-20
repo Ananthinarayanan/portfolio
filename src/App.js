@@ -1,9 +1,20 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 import { HashRouter, Routes, Route } from 'react-router-dom';
+
+import Navbarport from './Port/nav';
+import Firstpg from './Port/firstpg';
+import Aboutport from './Port/about';
+import Contactport from './Port/contact';
+import Education from './Port/education';
+import Cert from './Port/cert';
+import Skillport from './Port/skill';
 
 function App() {
   return (
     <div>
-      
       <HashRouter>
         <Navbarport />
         <Routes>
@@ -18,3 +29,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
